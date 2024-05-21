@@ -2,15 +2,16 @@
 
 The `AudioCutter` is a React project designed to facilitate the manipulation and editing of audio files within a web application. It offers a user-friendly interface for tasks such as cutting, removing sections, and saving audio clips. 
 
-1. **Waveform Visualization**: Utilizes the WaveSurfer.js library to display a visual representation of the audio waveform, allowing users to visualize and interact with the audio.
+1. **Region Selection**: Allows users to select specific regions of the audio waveform for editing, providing precise control over the editing process.
 
-2. **Region Selection**: Allows users to select specific regions of the audio waveform for editing, providing precise control over the editing process.
-
-3. **Cutting and Removing**: Provides functionality to cut or remove selected regions from the audio, enabling users to trim or edit audio clips as needed.
+2. **Playback Control**: Offers playback control options, including play, pause, and initialization functions, to facilitate audio playback during the editing process.
+   
+3. **Waveform Visualization**: Utilizes the WaveSurfer.js library to display a visual representation of the audio waveform, allowing users to visualize and interact with 
+    the audio.
 
 4. **Undo and Redo**: Supports undo and redo operations, allowing users to revert or repeat editing actions as necessary.
 
-5. **Playback Control**: Offers playback control options, including play, pause, and initialization functions, to facilitate audio playback during the editing process.
+5. **Cutting and Removing**: Provides functionality to cut or remove selected regions from the audio, enabling users to trim or edit audio clips as needed.
 
 
 ### Installation
@@ -23,7 +24,7 @@ Setting up the `AudioCutter` component locally involves several steps, including
 If you don't have a React app set up already, you can create one using Create React App:
 
 ```bash
-git clone https://github.com/ShashankGupta10/videodubber.ai-assignment
+git clone https://github.com/SekharSunkara6/video_dubber-assignment.git
 cd videodubber.ai-assignment
 ```
 
@@ -31,14 +32,14 @@ cd videodubber.ai-assignment
 Navigate to your Next app directory and install the necessary dependencies:
 
 ```bash
-pnpm install
+npm install
 ```
 
 ### Step 3: Run the Development Server
 Start the development server to see the `AudioCutter` project in action:
 
 ```bash
-pnpm run dev
+npm run dev
 ```
 
 This command will start the development server, and you should be able to access your app with the `AudioCutter` project at `http://localhost:3000` by default.
@@ -125,7 +126,6 @@ export default function Home() {
 - WaveSurfer.js
 - Material-UI
 
-## Author
-Made with ❤️ by Shashank Gupta
+
 
 
