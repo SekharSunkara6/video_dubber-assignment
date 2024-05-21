@@ -20,8 +20,7 @@ export default function Home() {
           Audio Cutter
         </h1>
         <p className="text-gray-500 text-base md:text-lg max-w-md block mx-auto">
-          Easily trim and edit your audio files with our powerful cutting tool.
-          Upload your audio and start customizing it to perfection.
+          Free editor to trim and cut any audio file online
         </p>
         <button
           className="bg-black text-white inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md px-8 w-full"
